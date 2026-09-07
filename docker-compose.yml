@@ -62,7 +62,7 @@ services:
       - back-tier
 
   db:
-    image: postgres:15-alpine
+    image: docker.io/library/postgres:15.19-alpine
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "postgres"
