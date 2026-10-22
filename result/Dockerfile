@@ -1,4 +1,4 @@
-FROM docker.io/library/node:22.23.3
+FROM docker.io/library/node:22.23.4
 
 # add curl for healthcheck
 RUN apt-get update && \
