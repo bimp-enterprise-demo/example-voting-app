@@ -15,7 +15,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: redis:alpine
+      - image: docker.io/library/redis:alpine@sha256:7958cfbb9d152f87dadfbc89f1b0b15938f0b81ff8982feb327476f4911935c3
         name: redis
         ports:
         - containerPort: 6379
